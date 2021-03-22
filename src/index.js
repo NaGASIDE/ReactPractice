@@ -10,6 +10,9 @@ import { IsOnline } from './components/IsOnline/IsOnline'
 import { NumbersList} from './components/NumberList/NumbersList'
 import { NameForm } from './components/NameForm/NameForm'
 import { EssayForm } from './components/EssayForm/EssayForm'
+import { ChooseCar } from './components/ChooseCar/ChooseCar'
+import { InputControl } from './components/InputControl/InputControl'
+import { Calculator } from './components/Calculator/Calculator'
 
 const root = document.getElementById('root')
 
@@ -32,6 +35,12 @@ ReactDOM.render(
     <NameForm />
     <br />
     <EssayForm />
+    <br />
+    <ChooseCar />
+    <br />
+    <InputControl />
+    <br />
+    <Calculator />
   </div>
 ,
   root
