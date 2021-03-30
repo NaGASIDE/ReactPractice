@@ -13,6 +13,7 @@ import { EssayForm } from './components/EssayForm/EssayForm'
 import { ChooseCar } from './components/ChooseCar/ChooseCar'
 import { InputControl } from './components/InputControl/InputControl'
 import { Calc } from './components/Calculator/Clac'
+import { Foot } from './components/Foot/Foot'
 
 const root = document.getElementById('root')
 
@@ -41,6 +42,8 @@ ReactDOM.render(
     <InputControl />
     <br />
     <Calc />
+    <br />
+    <Foot />
   </div>
 ,
   root
