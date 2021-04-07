@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function WaterBoil(props) {
+export const WaterBoil = (props) => {
   if (props.celsius >= 100) {
     return <p>The water would boil.</p>;
   }

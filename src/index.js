@@ -14,6 +14,8 @@ import { ChooseCar } from './components/ChooseCar/ChooseCar'
 import { InputControl } from './components/InputControl/InputControl'
 import { Calc } from './components/Calculator/Clac'
 import { Foot } from './components/Foot/Foot'
+import { ContextTraining } from './components/ContextTraining/ContextTraining'
+import { InputFocus } from './components/InputFocus/InputFocus'
 
 const root = document.getElementById('root')
 
@@ -44,6 +46,8 @@ ReactDOM.render(
     <Calc />
     <br />
     <Foot />
+    <br />
+    <InputFocus />
   </div>
 ,
   root
