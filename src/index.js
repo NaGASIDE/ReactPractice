@@ -17,6 +17,7 @@ import { Foot } from './components/Foot/Foot'
 import { ContextTraining } from './components/ContextTraining/ContextTraining'
 import { InputFocus } from './components/InputFocus/InputFocus'
 import { RefInput } from './components/RefInput/RefInput'
+import { RefWithcustomInput } from './components/RefWithcustomInput/RefWithcustomInput'
 
 const root = document.getElementById('root')
 
@@ -51,6 +52,8 @@ ReactDOM.render(
     <InputFocus />
     <br />
     <RefInput/>
+    <br />
+    <RefWithcustomInput />
   </div>
 ,
   root
